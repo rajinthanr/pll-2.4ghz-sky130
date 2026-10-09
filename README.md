@@ -1,4 +1,4 @@
-# PLL2_4
+# 2.4 GHz PLL in SKY130
 
 Schematic design and simulation of a charge-pump phase-locked loop targeting 2.4 GHz, built with the
 open-source analog flow (xschem + ngspice) on the SkyWater SKY130 process. This is a university team
@@ -78,11 +78,11 @@ PLL2_4/
 
 ## Opening and simulating
 
-Symbol paths are absolute, so clone the repository into the IIC-OSIC-TOOLS designs folder:
+Symbol paths are absolute (`/foss/designs/PLL2_4/...`), so clone the repository into the IIC-OSIC-TOOLS designs folder under its original name, `PLL2_4`:
 
 ```sh
 cd /foss/designs
-git clone https://github.com/rajinthanr/PLL2_4.git
+git clone https://github.com/rajinthanr/pll-2.4ghz-sky130.git PLL2_4
 cd PLL2_4
 xschem tb/tb_PFD_std.sch
 ```
